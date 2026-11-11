@@ -41,21 +41,20 @@ IMPORTANT
 - Records are stored locally on the same computer. Keep the "data" folder with the
   project if you want to keep your records.
 - Do not delete data\xdrive-data.dat if you want to preserve saved records.
-- If you want a clean demonstration, close the program and temporarily rename the
-  data folder to data_backup. Launch again to create fresh sample records.
+
 
 TESTING CHECKLIST
 1. Launch the program. Four sample vehicles and two sample customers should appear.
-2. Vehicle Management > Add vehicle. Add a Proton X90 SUV at RM180/day.
+2. Vehicle Management > Add vehicle. Add a Proton X50 SUV at RM180/day.
 3. Customers > Register customer. Add a test customer.
-4. Rental & Payment. Select that customer and the Proton X90, choose 3 days,
-   select Touch 'n Go eWallet, then confirm.
-5. Expected SUV total: RM180 x 3 x 1.10 = RM594.00.
+4. Rental & Payment. Select that customer and the Proton X50, choose 10 days,
+   select Maybank2u, then confirm.
+5. Expected SUV total: RM180 x 10 * 1.10 = RM1980.00
 6. Open Returns & History. Confirm rental and payment appear.
 7. Process vehicle return. The vehicle should become available again.
 8. Close and reopen the application. Records should still be present.
 
-OOP CONCEPTS TO EXPLAIN IN THE REPORT
+OOP CONCEPTS 
 - Encapsulation: model fields are private and accessed through getters/setters.
 - Inheritance: Sedan and SUV extend the Car base class.
 - Polymorphism: Car references can point to Sedan or SUV objects; the overridden
